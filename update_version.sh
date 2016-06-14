@@ -1,6 +1,6 @@
 echo "deb http://pools.corp.deepin.com/deepin/ unstable main contrib non-free" > /etc/apt/sources.list
 apt-get update
-apt-get install -y python3-apt python3-pip python3-setuptools git
+apt-get install -y python3-apt python3-pip python3-setuptools git python3-prettytable
 pip3 install nvchecker
 cd /nvchecker
 touch .nvchecker.old.txt
